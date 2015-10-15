@@ -11,17 +11,17 @@ This plugin is published under the MIT license, and the license document is incl
 * [Unit tests](http://jsfiddle.net/highcharts/pspdp2de/)
 
 ### Options
-* `exporting.csv.columnHeaderFormatter`
+* `exporting.csv.columnHeaderFormatter`: 
 Formatter callback for the column headers. Parameters are `series` (the series object), `key` (the point key, for example `y` or `z`), and `keyLength`. By default it returns the series name, followed by the key if there is more than one key. 
 
-* `exporting.csv.dateFormat`
+* `exporting.csv.dateFormat`: 
 Which date format to use for exported dates on a datetime X axis. See [Highcharts.dateFormat](http://api.highcharts.com/highcharts#Highcharts.dateFormat\(\)).
 
-* `exporting.csv.itemDelimiter`
+* `exporting.csv.itemDelimiter`: 
 The item delimiter, defaults to `,`. Use `;` for direct import to Excel.
 
-* `exporting.csv.lineDelimiter`
+* `exporting.csv.lineDelimiter`: 
 The line delimiter, defaults to `\\n`.
 
-* `series.includeInCSVExport`
+* `series.includeInCSVExport`: 
 Set this to false to prevent an individual series from being exported. To prevent the navigator in a stock chart, set `navigator.series.includeInCSVExport` to false.
